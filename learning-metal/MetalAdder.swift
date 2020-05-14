@@ -18,9 +18,7 @@ class MetalAdder {
     var bufferA: MTLBuffer?
     var bufferB: MTLBuffer?
     var bufferResult: MTLBuffer?
-    
-    var myCaptureScope: MTLCaptureScope?
-    
+
     init?(_ device: MTLDevice)
     {
         self.device = device
